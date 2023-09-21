@@ -1,44 +1,44 @@
 <main class="px-6 py-8" style="background: radial-gradient(circle at right, #b0dba6 , #d0c3e6)">
   <div class="container mx-auto">
-    <section class="flex flex-wrap py-36">
+    <section class="flex flex-wrap py-20 xl:py-36">
       <div class="w-full md:w-1/2 p-10 flex flex-col">
-        <h1 class="text-6xl font-bold leading-tight mb-10 font-serif drop-shadow-xl text-gray-800">Plan your next sprint with PointPoker</h1>
-        <p class="text-gray-600 text-xl mb-10">
+        <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-10 font-serif drop-shadow-xl text-gray-800">Plan your next sprint with PointPoker</h1>
+        <p class="text-gray-600 md:text-xl mb-10">
           PointPoker is an online tool for agile teams to estimate the effort required to complete a task.
         </p>
         <button class="justify-self-end self-center w-1/2 middle none center rounded-lg bg-pink-500 py-3 px-6 font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" data-ripple-light="true">
           Get Started
         </button>
       </div>
-      <div class="w-full md:w-1/2">
+      <div class="w-full md:w-1/2 hidden md:block">
         <img src="<%= asset_url('hero.png') %>" alt="PointPoker Screenshot" class="rounded-lg shadow-md" />
       </div>
     </section>
     <section class="bg-white p-20 mb-20 shadow-xl">
       <div class="container mx-auto px-6">
-        <h2 class="text-5xl font-bold mb-10 font-serif drop-shadow-lg">Why Choose PointPoker.dev?</h2>
-        <div class="flex gap-5 text-sm text-center">
-          <div class="rounded shadow py-10 px-5 w-1/5">
+        <h2 class="text-3xl md:text-5xl font-bold mb-10 font-serif drop-shadow-lg">Why Choose PointPoker.dev?</h2>
+        <div class="flex flex-col md:flex-row gap-5 text-sm text-center">
+          <div class="rounded shadow py-10 px-5 md:w-1/5">
             <i class="fa-regular fa-stopwatch text-8xl mb-5"></i>
             <h3 class="font-bold text-base mb-2">Real-time Collaboration</h3>
             <span class="text-gray-600">Host sessions with your team, no matter where they are.</span>
           </div>
-          <div class="rounded shadow py-10 px-5 w-1/5">
+          <div class="rounded shadow py-10 px-5 md:w-1/5">
             <i class="fa-regular fa-user-check text-8xl mb-5"></i>
             <h3 class="font-bold text-base mb-2">User-friendly Interface</h3>
             <span class="text-gray-600">Intuitive and easy to use, even for those new to Planning Poker.</span>
           </div>
-          <div class="rounded shadow py-10 px-5 w-1/5">
+          <div class="rounded shadow py-10 px-5 md:w-1/5">
             <i class="fa-regular fa-cards text-8xl mb-5"></i>
             <h3 class="font-bold text-base mb-2">Customizable Card Sets</h3>
             <span class="text-gray-600">Choose from Fibonacci, T-shirt sizes, or create your own.</span>
           </div>
-          <div class="rounded shadow py-10 px-5 w-1/5">
+          <div class="rounded shadow py-10 px-5 md:w-1/5">
             <i class="fa-regular fa-clock-rotate-left text-8xl mb-5"></i>
             <h3 class="font-bold text-base mb-2">Session History</h3>
             <span class="text-gray-600">Review past sessions to refine future estimates.</span>
           </div>
-          <div class="rounded shadow py-10 px-5 w-1/5">
+          <div class="rounded shadow py-10 px-5 md:w-1/5">
             <i class="fa-regular fa-shield-check text-8xl mb-5"></i>
             <h3 class="font-bold text-base mb-2">Secure &amp; Private</h3>
             <span class="text-gray-600">Your data is encrypted and never shared.</span>
@@ -48,8 +48,8 @@
     </section>
     <section class="bg-white p-20 mb-20 shadow-xl">
       <div class="container mx-auto px-6">
-        <h2 class="text-5xl font-bold mb-10 font-serif drop-shadow-lg">How It Works</h2>
-        <div class="flex gap-5">
+        <h2 class="text-3xl md:text-5xl font-bold mb-10 font-serif drop-shadow-lg">How It Works</h2>
+        <div class="flex flex-col md:flex-row gap-5">
           <img src="<%= asset_url('how-it-works.png') %>" alt="How it works" class="w-80" />
           <ol class="text-gray-700 text-xl mb-8 list-decimal list-inside flex flex-col gap-5">
             <li class="p-4 rounded shadow">
@@ -70,9 +70,9 @@
     </section>
     <section class="bg-white p-20 mb-20 shadow-xl">
       <div class="container mx-auto px-6">
-        <h2 class="text-5xl font-bold mb-2 font-serif drop-shadow-lg">Benefits of Planning Poker</h2>
+        <h2 class="text-3xl md:text-5xl font-bold mb-2 font-serif drop-shadow-lg">Benefits of Planning Poker</h2>
         <p class="text-gray-700 text-xl mb-8">
-          <ul class="flex gap-10">
+          <ul class="flex flex-col md:flex-row gap-10">
             <li class="p-10 rounded shadow text-center text-gray-700">
               <img src="<%= asset_url('team-collaboration.png') %>" alt="Team Collaboration" class="" />
               <h3 class="font-bold font-serif text-xl text-gray-900 py-4">Promotes Team Collaboration</h3>
