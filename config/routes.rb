@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root 'home#index'
-  get :terms, to: 'home#terms'
+  get :faq, to: 'home#faq'
   get :privacy, to: 'home#privacy'
+  get :terms, to: 'home#terms'
 end
