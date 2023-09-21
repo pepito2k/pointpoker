@@ -1,16 +1,88 @@
-<main class="container mx-auto px-6 py-8">
-  <div class="flex flex-wrap">
-    <div class="w-full md:w-1/2 p-10">
-      <h1 class="text-5xl font-bold leading-tight mb-2">Plan your next sprint with PointPoker</h1>
-      <p class="text-gray-700 text-xl mb-8">
-        PointPoker is an online tool for agile teams to estimate the effort required to complete a task.
-      </p>
-      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-        Get Started
-      </button>
-    </div>
-    <div class="w-full md:w-1/2">
-      <img src="<%= asset_url('hero.png') %>" alt="PointPoker Screenshot" class="rounded-lg shadow-md" />
-    </div>
+<main class="px-6 py-8" style="background: radial-gradient(circle at right, #b0dba6 , #d0c3e6)">
+  <div class="container mx-auto">
+    <section class="flex flex-wrap py-36">
+      <div class="w-full md:w-1/2 p-10 flex flex-col">
+        <h1 class="text-5xl font-bold leading-tight mb-2">Plan your next sprint with PointPoker</h1>
+        <p class="text-gray-700 text-xl mb-8">
+          PointPoker is an online tool for agile teams to estimate the effort required to complete a task.
+        </p>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded justify-self-end">
+          Get Started
+        </button>
+      </div>
+      <div class="w-full md:w-1/2">
+        <img src="<%= asset_url('hero.png') %>" alt="PointPoker Screenshot" class="rounded-lg shadow-md" />
+      </div>
+    </section>
+    <section class="bg-white p-20 mb-20 shadow">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-10">Why Choose PointPoker.dev?</h2>
+        <div class="flex gap-5 text-sm text-center">
+          <div class="rounded shadow py-10 px-5 w-1/5">
+            <i class="fa-regular fa-stopwatch text-6xl mb-5"></i>
+            <h3 class="font-bold text-base mb-2">Real-time Collaboration</h3>
+            <span class="text-gray-600">Host sessions with your team, no matter where they are.</span>
+          </div>
+          <div class="rounded shadow py-10 px-5 w-1/5">
+            <i class="fa-regular fa-user-check text-6xl mb-5"></i>
+            <h3 class="font-bold text-base mb-2">User-friendly Interface</h3>
+            <span class="text-gray-600">Intuitive and easy to use, even for those new to Planning Poker.</span>
+          </div>
+          <div class="rounded shadow py-10 px-5 w-1/5">
+            <i class="fa-regular fa-cards text-6xl mb-5"></i>
+            <h3 class="font-bold text-base mb-2">Customizable Card Sets</h3>
+            <span class="text-gray-600">Choose from Fibonacci, T-shirt sizes, or create your own.</span>
+          </div>
+          <div class="rounded shadow py-10 px-5 w-1/5">
+            <i class="fa-regular fa-clock-rotate-left text-6xl mb-5"></i>
+            <h3 class="font-bold text-base mb-2">Session History</h3>
+            <span class="text-gray-600">Review past sessions to refine future estimates.</span>
+          </div>
+          <div class="rounded shadow py-10 px-5 w-1/5">
+            <i class="fa-regular fa-shield-check text-6xl mb-5"></i>
+            <h3 class="font-bold text-base mb-2">Secure &amp; Private</h3>
+            <span class="text-gray-600">Your data is encrypted and never shared.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white p-20 mb-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-10">How It Works</h2>
+        <div class="flex gap-5">
+          <img src="<%= asset_url('how-it-works.png') %>" alt="How it works" class="w-80" />
+          <ol class="text-gray-700 text-xl mb-8 list-decimal list-inside">
+            <li>Create a Session: <br/> Start a new session and invite your team.</li>
+            <li>Estimate Together: Each member selects a card to represent their estimate.</li>
+            <li>Reveal &amp; Discuss: Once everyone has chosen, cards are revealed. Discuss variances and converge on an estimate.</li>
+            <li>Move Forward: With a consensus reached, move on to the next item or end the session.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white p-20 mb-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-2">Benefits of Planning Poker</h2>
+        <p class="text-gray-700 text-xl mb-8">
+          <ul>
+            <li>Promotes Team Collaboration: Everyone has a voice in the estimation process.</li>
+            <li>Reduces Bias: By keeping estimates hidden until all cards are revealed, it prevents anchoring.</li>
+            <li>Improves Accuracy: Discussing differing opinions helps the team arrive at a more accurate estimate.</li>
+          </ul>
+        </p>
+      </div>
+    </section>
+    <section class="bg-gray-100 py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-2">Get Started Today!</h2>
+        <p class="text-gray-700 text-xl mb-8">
+          Ready to revolutionize your estimation sessions?<br/>
+          Sign up now and make PointPoker.dev your team's go-to tool for Agile estimation.
+        </p>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Learn More
+        </button>
+      </div>
+    </section>
   </div>
 </main>
